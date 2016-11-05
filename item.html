@@ -3,27 +3,29 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Девайс</title>
+    <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
  				<!-- шапка сайта -->
   	<header>
   		<div class="container">
   			<div class="index-logo">
-  				<img src="http://placehold.it/150x100" alt="лого" width="150" height="100" title="логотип DEVICE"> 
+  				<p>DEVICE</p> 
   			</div>
   			<div class="user-block">
   				<form>
+  					<img src="img/icon-search.png" alt="поиск" title="поиск" width="15" height="15">
    					<input type="search" name="q" placeholder="Поиск по сайту">
    				</form>
    				<!--здесь должен быть валентинн петушков -->
-					<a href="#">выйти</a>
-					<a href="#">cравнить</a>
-					<a href="#">корзина</a>
+					<a href="#"><img src="img\icon-user.png" alt="войти" width="15" height="15" title="войти">войти</a>
+					<a href="#"><img src="img\icon-compare.png" alt="сравнить" width="15" height="15" title="сравнить">cравнить</a>
+					<a href="#"><img src="img\icon-basket.png" alt="корзина" width="15" height="15" title="корзина">корзина</a>
 				</div>
 			<nav class="main-navigator">
 				<ul>
 					<li>
-						<a href="#">каталог товаров</a>
+						<a href="#">каталог товаров<img src="img/plus.png" alt="плюс" title="плюс" width="15" height="15"></a>
 					</li>
 					<li>
 						<a href="#">доставка</a>
@@ -42,7 +44,9 @@
   			<div class="breadcrumbs">
   				<ul>
   					<li><a href="#">главная</a></li>
+  					<li><img src="img/icon-nav-big.png"></li>
   					<li><a href="#">каталог товаров</a></li>
+  					<li><img src="img/icon-nav-big.png"></li>
   					<li><a href="#">моноподы для селфи</a></li>
   				</ul>
   			</div>
@@ -52,48 +56,59 @@
   			<h2>фильтр:</h2>
   			<form>
   				<aside class="price">
+  						<img src="img/black-line-200px.png">
   					<h3>стоимость</h3>
+  					<input type="range" name="range">
   					<input type="range" min="0" max="5000">
   				</aside>
   				<aside class="color">
+  					<img src="img/black-line-200px.png">
   					<h3>цвет</h3>
   					<ul>
 						<li>
 							<label>	
+							<img src="img/checkbox.png">
 							<input type="checkbox" name="черный" checked>
 							черный</label>
 						</li>
 						<li>
 							<label>
+							<img src="img/checkbox.png">
 							<input type="checkbox" name="белый">
 							 белый</label>
 						</li>
 						<li>
 							<label>
+							<img src="img/checkbox.png">
 							<input type="checkbox" name="синий" checked>
 							 синий</label>
 						</li>
 						<li>
 							<label>
+							<img src="img/checkbox.png">
 							<input type="checkbox" name="красный" checked>
 							 красный</label>
 						</li>
 						<li>
 							<label>
+							<img src="img/checkbox.png">
 							<input type="checkbox" name="розовый">
 							 розовый</label>
 						</li>
 					</ul>
   				</aside> 
   				<aside class="bluetooth">
+  					<img src="img/black-line-200px.png">
   						<ul>
 							<li>
   								<label>
+  								<img src="img/krug-batton.png">
 								<input type="radio" name="есть" checked>
 								есть</label>
 							</li>
 							<li>
 								<label>
+								<img src="img/krug-batton.png">
 								<input type="radio" name="нет">
 								нет</label>
 							</li>
@@ -108,31 +123,33 @@
 					<li><a href="#">по цене</a></li>
 					<li><a href="#">по типу</a></li>
 					<li><a href="#">по популярности</a></li>
+					<li><a href="#"><img src="img/soft-up-icon.png"></a></li>
+					<li><a href="#"><img src="img/soft-down.png"></a></li>
 				</ul>
 				<article>
 					<figure>
-						<img src="http://placehold.it/150x100" alt="любительская селфи-палка" width="150" height="100"> 
+						<img src="img/lubitel-selfi-palka.png" alt="любительская селфи-палка" width="150" height="100"> 
 						<figcaption>любительская селфи-палка</figcaption>
 					</figure>
 						<p>500pуб.</p>
 				</article>
 				<article>
 					<figure>
-					<img src="http://placehold.it/150x100" alt="профессиональная селфи-палка" width="150" height="100"> 
+					<img src="img/profi-selfi-palka.png" alt="профессиональная селфи-палка" width="150" height="100"> 
 						<figcaption>профессиональная селфи-палка</figcaption>
 					</figure>
 						<p>1500руб.</p>
 				</article>
 				<article>
 					<figure>
-					<img src="http://placehold.it/150x100" alt="непотопляемая селфи-палка" width="150" height="100"> 
+					<img src="img/nepotop-selfi-palka.png" alt="непотопляемая селфи-палка" width="150" height="100"> 
 						<figcaption>непотопляемая селфи-палка</figcaption>
 					</figure>
 						<p>2500руб.</p>
 				</article>
 				<article>
 					<figure>
-					<img src="http://placehold.it/150x100" alt="селфи-палка следуй за мной" width="150" height="100"> 
+					<img src="img/sleduy-za-mnoy-selfi-palka.png" alt="селфи-палка следуй за мной" width="150" height="100"> 
 					<figcaption>"селфи-палка следуй за мной"</figcaption>
 					</figure>
 						<p>4900руб.</p>
@@ -168,24 +185,30 @@
   			<div class="footer-social">
   			<ul>
   				<li>
-				<a href="#" class="social-btn social-btn-fb">фейсбук</a>
+  					<a href="#" class="social-btn social-btn-fb">фейсбук
+					<img src="img\icon-facebook.png" alt="фейсбук" width="50" height="50" title="фейсбук">
+					</a>
 				</li>
 				<li>
-				<a href="#" class="social-btn social-btn-inst">инстаграм</a>
+					<a href="#" class="social-btn social-btn-inst">инстаграм
+					<img src="img\icon-instagam.png" alt="интаграм" width="50" height="50" title="инстаграм">
+					</a>
 				</li>
 				<li>
-				<a href="#" class="social-btn social-btn-twr">твиттер</a>
+					<a href="#" class="social-btn social-btn-twr">твиттер
+					<img src="img\icon-twitter.png" alt="твиттер" width="50" height="50" title="твиттер">
+					</a>
 				</li>
 			</ul>
 			</div>
 			<div class="user-block">
-  					<a href="#">войти</a>
-					<a href="#">cравнить</a>
-					<a href="#">корзина</a>
+  					<a href="#"><img src="img\icon-user-footer.png" alt="войти" width="10" height="10" title="войти">войти</a>
+					<a href="#"><img src="img\icon-compare-yellow.png" alt="сравнить" width="10" height="10" title="сравнить">cравнить</a>
+					<a href="#"><img src="img\icon-backet-yellow.png" alt="корзина" width="10" height="10" title="корзина">корзина</a>
 			</div>
 			 <a href="tel:+74954959595">+7(495)495-95-95</a>
 			<div class="footer-copyright">
-          		<img src="http://placehold.it/150x100" alt="значок академии" width="150" height="100" title="значок академии"> 
+          		<img src="img\logo-html-footer.png" alt="значок академии" width="50" height="50" title="значок академии"> 
         	</div>
   		</div>
   	</footer>
