@@ -9,7 +9,7 @@
  				<!-- шапка сайта -->
   	<header>
   		<div class="container">
-  			<div class="index-logo">
+  			<div class="item-logo">
   				<p>DEVICE</p> 
   			</div>
   			<div class="user-block">
@@ -18,9 +18,17 @@
    					<input type="search" name="q" placeholder="Поиск по сайту">
    				</form>
    				<!--здесь должен быть валентинн петушков -->
-					<a href="#"><img src="img\icon-user.png" alt="войти" width="15" height="15" title="войти">войти</a>
-					<a href="#"><img src="img\icon-compare.png" alt="сравнить" width="15" height="15" title="сравнить">cравнить</a>
-					<a href="#"><img src="img\icon-basket.png" alt="корзина" width="15" height="15" title="корзина">корзина</a>
+					<ul>
+						<li>
+							<a href="#"><img src="img/icon-user.png" alt="войти" width="15" height="15" title="войти">войти</a>
+						</li>
+						<li>
+							<a href="#"><img src="img/icon-compare.png" alt="сравнить" width="15" height="15" title="сравнить">cравнить</a>
+						</li>
+						<li>
+							<a href="#"><img src="img/icon-basket.png" alt="корзина" width="15" height="15" title="корзина">корзина</a>
+						</li>
+					</ul>
 				</div>
 			<nav class="main-navigator">
 				<ul>
@@ -40,75 +48,76 @@
   			</nav>
   		</div>
   	</header> 
+  		<div class="container-item">
 			<h1>моноподы для селфи</h1>
   			<div class="breadcrumbs">
   				<ul>
   					<li><a href="#">главная</a></li>
-  					<li><img src="img/icon-nav-big.png"></li>
+  					<li><img src="img/icon-nav-big.png" alt="иконка"></li>
   					<li><a href="#">каталог товаров</a></li>
-  					<li><img src="img/icon-nav-big.png"></li>
+  					<li><img src="img/icon-nav-big.png" alt="иконка"></li>
   					<li><a href="#">моноподы для селфи</a></li>
   				</ul>
   			</div>
   	         <!--основной контент -->
-  	<div class="container">
+  	<div class="main-container">
   		<section class="sidebar">
   			<h2>фильтр:</h2>
   			<form>
   				<aside class="price">
-  						<img src="img/black-line-200px.png">
+  						<img src="img/black-line-200px.png" alt="черная линия">
   					<h3>стоимость</h3>
   					<input type="range" name="range">
   					<input type="range" min="0" max="5000">
   				</aside>
   				<aside class="color">
-  					<img src="img/black-line-200px.png">
+  					<img src="img/black-line-200px.png" alt="черная линия">
   					<h3>цвет</h3>
   					<ul>
 						<li>
 							<label>	
-							<img src="img/checkbox.png">
+							<img src="img/checkbox.png" alt="галочка">
 							<input type="checkbox" name="черный" checked>
 							черный</label>
 						</li>
 						<li>
 							<label>
-							<img src="img/checkbox.png">
+							<img src="img/checkbox.png" alt="галочка">
 							<input type="checkbox" name="белый">
 							 белый</label>
 						</li>
 						<li>
 							<label>
-							<img src="img/checkbox.png">
+							<img src="img/checkbox.png" alt="галочка">
 							<input type="checkbox" name="синий" checked>
 							 синий</label>
 						</li>
 						<li>
 							<label>
-							<img src="img/checkbox.png">
+							<img src="img/checkbox.png" alt="галочка">
 							<input type="checkbox" name="красный" checked>
 							 красный</label>
 						</li>
 						<li>
 							<label>
-							<img src="img/checkbox.png">
+							<img src="img/checkbox.png" alt="галочка">
 							<input type="checkbox" name="розовый">
 							 розовый</label>
 						</li>
 					</ul>
   				</aside> 
   				<aside class="bluetooth">
-  					<img src="img/black-line-200px.png">
+  					<img src="img/black-line-200px.png" alt="черная линия">
   						<ul>
 							<li>
   								<label>
-  								<img src="img/krug-batton.png">
+  								<img src="img/krug-batton.png" alt="кружок">
 								<input type="radio" name="есть" checked>
 								есть</label>
 							</li>
 							<li>
 								<label>
-								<img src="img/krug-batton.png">
+								<img src="img/krug-batton.png" alt="кружок">
 								<input type="radio" name="нет">
 								нет</label>
 							</li>
@@ -123,8 +132,8 @@
 					<li><a href="#">по цене</a></li>
 					<li><a href="#">по типу</a></li>
 					<li><a href="#">по популярности</a></li>
-					<li><a href="#"><img src="img/soft-up-icon.png"></a></li>
-					<li><a href="#"><img src="img/soft-down.png"></a></li>
+					<li><a href="#"><img src="img/soft-up-icon.png" alt="стрелка"></a></li>
+					<li><a href="#"><img src="img/soft-down.png" alt="стрелка"></a></li>
 				</ul>
 				<article>
 					<figure>
@@ -163,10 +172,11 @@
 				<a href="#">вперед</a>
 			</div>
   	</div>
+  	</div>
  <footer>              <!-- подвал -->
-		<div class="container">
+		<div class="container-item">
   		 	<div class="footer-logo">
-  				<img src="http://placehold.it/150x100" alt="лого футер DEVICE" width="150" height="100" title="лого футера DEVICE"> 
+  				<p>DEVICE</p>
   			</div>
   			<address>г.Москва.ул.Строителей,15</address>
   			<nav class="footer-navigator">
@@ -186,29 +196,29 @@
   			<ul>
   				<li>
   					<a href="#" class="social-btn social-btn-fb">фейсбук
-					<img src="img\icon-facebook.png" alt="фейсбук" width="50" height="50" title="фейсбук">
+					<img src="img/icon-facebook.png" alt="фейсбук" width="50" height="50" title="фейсбук">
 					</a>
 				</li>
 				<li>
 					<a href="#" class="social-btn social-btn-inst">инстаграм
-					<img src="img\icon-instagam.png" alt="интаграм" width="50" height="50" title="инстаграм">
+					<img src="img/icon-instagam.png" alt="интаграм" width="50" height="50" title="инстаграм">
 					</a>
 				</li>
 				<li>
 					<a href="#" class="social-btn social-btn-twr">твиттер
-					<img src="img\icon-twitter.png" alt="твиттер" width="50" height="50" title="твиттер">
+					<img src="img/icon-twitter.png" alt="твиттер" width="50" height="50" title="твиттер">
 					</a>
 				</li>
 			</ul>
 			</div>
 			<div class="user-block">
-  					<a href="#"><img src="img\icon-user-footer.png" alt="войти" width="10" height="10" title="войти">войти</a>
-					<a href="#"><img src="img\icon-compare-yellow.png" alt="сравнить" width="10" height="10" title="сравнить">cравнить</a>
-					<a href="#"><img src="img\icon-backet-yellow.png" alt="корзина" width="10" height="10" title="корзина">корзина</a>
+  					<a href="#"><img src="img/icon-user-footer.png" alt="войти" width="10" height="10" title="войти">войти</a>
+					<a href="#"><img src="img/icon-compare-yellow.png" alt="сравнить" width="10" height="10" title="сравнить">cравнить</a>
+					<a href="#"><img src="img/icon-backet-yellow.png" alt="корзина" width="10" height="10" title="корзина">корзина</a>
 			</div>
 			 <a href="tel:+74954959595">+7(495)495-95-95</a>
 			<div class="footer-copyright">
-          		<img src="img\logo-html-footer.png" alt="значок академии" width="50" height="50" title="значок академии"> 
+          		<img src="img/logo-html-footer.png" alt="значок академии" width="50" height="50" title="значок академии"> 
         	</div>
   		</div>
   	</footer>
