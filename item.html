@@ -3,16 +3,16 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Девайс</title>
+    <link href="css/normalize.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
+    
   </head>
   <body>
  				<!-- шапка сайта -->
-  	<header>
-  		<div class="container">
-  			<div class="item-logo">
-  				<p>DEVICE</p> 
-  			</div>
-  			<div class="user-block">
+  	<div class="container">
+ 		<div class="logo">DEVICE</div>
+		<header class="main-header">
+			<div class="user-block"></div>
   				<form>
   					<img src="img/icon-search.png" alt="поиск" title="поиск" width="15" height="15">
    					<input type="search" name="q" placeholder="Поиск по сайту">
@@ -174,7 +174,7 @@
   	</div>
   	</div>
  <footer>              <!-- подвал -->
-		<div class="container-item">
+		<div class="container-item-footer">
   		 	<div class="footer-logo">
   				<p>DEVICE</p>
   			</div>
@@ -195,28 +195,38 @@
   			<div class="footer-social">
   			<ul>
   				<li>
-  					<a href="#" class="social-btn social-btn-fb">фейсбук
+  					<a href="#" class="social-btn social-btn-fb">
 					<img src="img/icon-facebook.png" alt="фейсбук" width="50" height="50" title="фейсбук">
 					</a>
 				</li>
 				<li>
-					<a href="#" class="social-btn social-btn-inst">инстаграм
+					<a href="#" class="social-btn social-btn-inst">
 					<img src="img/icon-instagam.png" alt="интаграм" width="50" height="50" title="инстаграм">
 					</a>
 				</li>
 				<li>
-					<a href="#" class="social-btn social-btn-twr">твиттер
+					<a href="#" class="social-btn social-btn-twr">
 					<img src="img/icon-twitter.png" alt="твиттер" width="50" height="50" title="твиттер">
 					</a>
 				</li>
 			</ul>
 			</div>
-			<div class="user-block">
-  					<a href="#"><img src="img/icon-user-footer.png" alt="войти" width="10" height="10" title="войти">войти</a>
-					<a href="#"><img src="img/icon-compare-yellow.png" alt="сравнить" width="10" height="10" title="сравнить">cравнить</a>
+			<div class="user-block-footer">
+				<ul>
+					<li>
+  						<a href="#"><img src="img/icon-user-footer.png" alt="войти" width="10" height="10" title="войти">войти</a>
+  					</li>
+  					<li>
+						<a href="#"><img src="img/icon-compare-yellow.png" alt="сравнить" width="10" height="10" title="сравнить">cравнить</a>
+					</li>
+					<li>
 					<a href="#"><img src="img/icon-backet-yellow.png" alt="корзина" width="10" height="10" title="корзина">корзина</a>
-			</div>
-			 <a href="tel:+74954959595">+7(495)495-95-95</a>
+					</li>
+				</ul>
+			</div> 
+			<div class="tel">
+			 	<a href="tel:+74954959595">+7(495)495-95-95</a>
+			 </div>
 			<div class="footer-copyright">
           		<img src="img/logo-html-footer.png" alt="значок академии" width="50" height="50" title="значок академии"> 
         	</div>

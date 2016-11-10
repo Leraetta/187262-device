@@ -2,31 +2,29 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8">
+    	<link href="css/normalize.css" rel="stylesheet">
     	<link href="css/style.css" rel="stylesheet">
-		
     <title>HTML Academy: Девайс</title>
   </head>
   <body>
  				<!-- шапка сайта -->
-  	<header>
-  		<div class="container">
-			<div class="index-logo">
-  				<p>DEVICE</p> 
-  			</div>
-  			<div class="user-block">
-  				<form>
+ 	<div class="container">
+ 		<div class="logo">DEVICE</div>
+		<header class="main-header">
+			<div class="user-block">
+  				<form class="poisk">
   					<img src="img/icon-search.png" alt="поиск" title="поиск" width="15" height="15">
    					<input type="search" name="q" placeholder="Поиск по сайту">
    				</form>
    					<ul>
 						<li>
-							<a href="#"><img src="img/icon-user.png" alt="войти" width="15" height="15" title="войти">войти</a>
+							<a href="#"><img src="img/icon-user.png" alt="Войти" width="15" height="15" title="Войти">Войти</a>
 						</li>
 						<li>
-							<a href="#"><img src="img/icon-compare.png" alt="сравнить" width="15" height="15" title="сравнить">cравнить</a>
+							<a href="#"><img src="img/icon-compare.png" alt="Сравнить" width="15" height="15" title="Сравнить">Сравнить</a>
 						</li>
 						<li>
-							<a href="#"><img src="img/icon-basket.png" alt="корзина" width="15" height="15" title="корзина">корзина</a>
+							<a href="#"><img src="img/icon-basket.png" alt="Kорзина" width="15" height="15" title="Kорзина">Kорзина</a>
 						</li>
 					</ul>
 				</div>
@@ -46,8 +44,9 @@
   					</li>
   				</ul>
   			</nav>
-  		</div>
-  	</header>
+  		</header>
+  	</div>
+
   				<!-- первый блок с большой палкой селфи-->
   		<div class="main-container">
   			<section class="features-one">
@@ -153,11 +152,9 @@
   			</section>
   		</div>
   				<!-- подвал сайта -->
-  	<footer>     
-		<div class="container">
-  		 	<div class="footer-logo">
-  				<p>DEVICE</p>
-  			</div>
+  	<div class="container">
+  		<footer class="main-footer">     
+			<div class="footer-logo">DEVICE</div>
   			<address>г.Москва.ул.Строителей,15</address>
   			<nav class="footer-navigator">
   				<ul>
@@ -176,28 +173,38 @@
   			<ul>
   				<li>
 
-					<a href="#" class="social-btn social-btn-fb">фейсбук
+					<a href="#" class="social-btn social-btn-fb">
 					<img src="img/icon-facebook.png" alt="фейсбук" width="50" height="50" title="фейсбук">
 					</a>
 				</li>
 				<li>
-					<a href="#" class="social-btn social-btn-inst">инстаграм
+					<a href="#" class="social-btn social-btn-inst">
 					<img src="img/icon-instagam.png" alt="интаграм" width="50" height="50" title="инстаграм">
 					</a>
 				</li>
 				<li>
-					<a href="#" class="social-btn social-btn-twr">твиттер
+					<a href="#" class="social-btn social-btn-twr">
 					<img src="img/icon-twitter.png" alt="твиттер" width="50" height="50" title="твиттер">
 					</a>
 				</li>
 			</ul>
 			</div>
 			<div class="user-block-footer">
-  					<a href="#"><img src="img/icon-user-footer.png" alt="войти" width="10" height="10" title="войти">войти</a>
-					<a href="#"><img src="img/icon-compare-yellow.png" alt="сравнить" width="10" height="10" title="сравнить">cравнить</a>
-					<a href="#"><img src="img/icon-backet-yellow.png" alt="корзина" width="10" height="10" title="корзина">корзина</a>
+				<ul>
+  					<li>	
+  						<a href="#"><img src="img/icon-user-footer.png" alt="войти" width="10" height="10" title="войти">войти</a>
+  					</li>
+  					<li>
+						<a href="#"><img src="img/icon-compare-yellow.png" alt="сравнить" width="10" height="10" title="сравнить">cравнить</a>
+					</li>
+					<li>
+						<a href="#"><img src="img/icon-backet-yellow.png" alt="корзина" width="10" height="10" title="корзина">корзина</a>
+					</li>
+				</ul>
 			</div>
-			 <a href="tel:+74954959595">+7(495)495-95-95</a>
+			<div class="tel">
+			 	<a href="tel:+74954959595">+7(495)495-95-95</a>
+			 </div>
 			<div class="footer-copyright">
           		<img src="img/logo-html-footer.png" alt="значок академии" width="30" height="30" title="значок академии"> 
         	</div>
