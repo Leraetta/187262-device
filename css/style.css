@@ -37,37 +37,19 @@ input  {
 }
 
 .user-block a {
-	font-size: ;
 	text-decoration: none;
+	margin-bottom: 250px;
 } 
-.bb {
-	width: 90%;
-  	margin: 0 auto;
+.user-block {
+	margin-left: 600px;
+	width: 1000px;
+	margin-bottom: 250px;
 }
-/*.user-block {
-	display: inline-block;
-	width: 1140px;
-	height: auto;
-	margin: auto;
-}
-.user-block li {
-	display: inline-block;
-	font-size:     18px;
-	font-family:   OpenSans-Light;
-	color:         #000000;
-	padding-left: 20px;
-	margin-left:200px;
-	vertical-align: top;
-}*/
-/*.user-block ul {
-	list-style-type: none;
-  	width: 600px;
-  	border: 1px solid #ccc;
-  	padding: 10px;
-  	text-align: justify;
-  	margin-left: 490px;
-  	margin-top: -30px;
-}
+ul {
+  width: 50%;
+  text-align: justify;
+ }
+
 ul:after {
   content: '';
   display: inline-block;
@@ -77,14 +59,13 @@ ul:after {
 li {
   display: inline-block;
 }
-
-}*/
-
+/* конец */
 
 /* этот блок не трогать кое-как настроила */
 .bg {
   width: 90%;
   margin: 0 auto;
+
  } 
 
 .block {
